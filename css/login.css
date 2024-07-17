@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+/* Home page*/
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  width: 100%;
+  background-color: rgb(224, 224, 224);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+}
+.logo img {
+  width: 100px;
+}
+/*.active-lang{
+   
+}*/
+.header {
+  width: 100px;
+  margin: auto;
+  max-width: 90%;
+  transition: transform 1s;
+}
+#nav-bar {
+  display: flex;
+  align-items: right;
+  justify-content: center;
+  padding-left: 350px;
+}
+#nav-bar li {
+  list-style: none;
+
+  position: relative;
+}
+#nav-bar li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(39, 39, 38);
+  transition: 0.5s ease;
+  text-shadow: 2px;
+}
+#nav-bar li a:hover,
+#nav-bar li a.active {
+  color: rgb(5, 96, 26);
+}
+#nav-bar li a.active::after,
+#nav-bar li a:hover::after {
+  content: "";
+  width: 30px;
+  height: 2px;
+  background-color: rgb(98, 236, 130);
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+#mobile {
+  display: none;
+  align-items: center;
+}
+#close {
+  display: none;
+}
+
+.wrapper {
+  max-width: 530px;
+  width: 100%;
+  background: #2e38f1;
+  padding: 30px;
+  margin: 85px auto 30px;
+  width: 60%;
+  border-radius: 9px;
+  box-shadow: 0 5px 10px rgba(3, 3, 3, 0.2);
+}
+.wrapper h2 {
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+}
+.wrapper .message {
+  margin: 10px 0;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: #eb0909;
+  background-color: #ffff;
+}
+.wrapper h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 50px;
+  border-radius: 12px;
+  background: #4070f4;
+}
+.wrapper form {
+  margin-top: 30px;
+  height: 80%;
+}
+.wrapper form .input-box {
+  height: 52px;
+  margin: 12px 0;
+}
+form .input-box input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 30px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #c7bebe;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.input-box input:focus,
+.input-box input:valid {
+  border-color: #4070f4;
+}
+
+form .policy {
+  display: flex;
+  align-items: center;
+}
+form h3 {
+  color: #eee7e7;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.input-box.button input {
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: #05e043fb;
+  cursor: pointer;
+}
+.input-box.button input:hover {
+  background: #101111;
+}
+form .text h3 {
+  color: #faf9f9;
+  width: 100%;
+  text-align: center;
+}
+form .text h3 a {
+  color: #3ae008;
+  text-decoration: none;
+}
+form .text h3 a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #f1e5e5;
+  position: sticky;
+}
+footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+footer .logo {
+  margin-bottom: 30px;
+}
+footer h4 {
+  font-size: 14px;
+  padding-bottom: 20px;
+  font-weight: 600;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  font-style: bold;
+}
+footer p {
+  font-size: 13px;
+  margin: 0 0 8px 0;
+}
+footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #222;
+  margin-bottom: 10px;
+}
+footer .follow {
+  margin: 0 auto;
+  padding-right: 5px;
+}
+footer .follow i {
+  color: #465b52;
+  padding-right: 4px;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  margin-top: 22px;
+  color: inherit;
+  opacity: 0.75;
+  cursor: pointer;
+}
+footer .follow i:hover,
+footer a:hover {
+  color: #36d6bb;
+}
+footer .copyright {
+  width: 100%;
+  text-align: center;
+  margin-top: 14px;
+  margin-bottom: 0;
+  font-size: 13px;
+  opacity: 0.6;
+  display: inline-block;
+  text-align: center;
+  color: #0d0d0e;
+}

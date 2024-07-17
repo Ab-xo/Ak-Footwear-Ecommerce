@@ -1,0 +1,31 @@
+.popup {
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(67, 240, 124, 0.9);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+  }
+  
+  .popup-content {
+    text-align: center;
+    color: #000;
+   
+  }
+  
+  .close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .close:hover {
+    color: red;
+  }
+  
