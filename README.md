@@ -15,5 +15,10 @@ Running the Application:
 Place the project folder in the htdocs directory of your XAMPP installation.
 Start XAMPP and ensure Apache and MySQL services are running.
 Open a web browser and go to http://localhost/your_project_folder.
+GitHub Repository
+Find the source code at: Ak-Footwear-Ecommerce GitHub Repository
+
 Contact
 For questions regarding setup or usage, contact us at gebeyehuabraham19@gmail.com.
+
+
