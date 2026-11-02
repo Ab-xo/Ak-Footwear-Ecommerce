@@ -9,7 +9,7 @@ export default function CategoriesPage() {
     const categories = [
         {
             name: "Footwear",
-            slug: "shoes",
+            slug: "footwear",
             image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=1200",
             count: "120+ Items",
             description: "From performance runners to street icons. Step into the future."

@@ -67,6 +67,9 @@ NEXT_PUBLIC_SITE_URL=http://localhost:3000
 ### 4. Apply the database schema
 
 Run `complete-schema.sql` in your Supabase project's SQL Editor.
+For an existing database with duplicate Footwear categories, run
+`merge-duplicate-footwear.sql` in the SQL Editor to move their products to the
+canonical `footwear` category and remove the duplicate.
 
 ### 5. Run the dev server
 
