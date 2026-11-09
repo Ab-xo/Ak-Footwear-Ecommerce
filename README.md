@@ -1,24 +1,33 @@
-Shoe Store Project
-Overview
-This project is a shoe store application developed with PHP, HTML, CSS, JavaScript, Bootstrap, Ajax, and MySQL.
+# AK Footwear Store
 
-Prerequisites
-XAMPP installed on your local machine.
-Access to phpMyAdmin for database management.
-Installation
-Database Setup:
+A PHP-based footwear e-commerce application with catalog browsing, customer accounts, shopping cart, checkout, and order workflows.
 
-Navigate to the Database folder.
-Import shoe.sql into your MySQL database using phpMyAdmin.
-Running the Application:
+## Features
 
-Place the project folder in the htdocs directory of your XAMPP installation.
-Start XAMPP and ensure Apache and MySQL services are running.
-Open a web browser and go to http://localhost/your_project_folder.
-GitHub Repository
-Find the source code at: Ak-Footwear-Ecommerce GitHub Repository
+- Footwear catalog and product browsing
+- Customer registration and authentication
+- Shopping cart and checkout
+- Product and order management
+- Contact and newsletter forms
 
-Contact
-For questions regarding setup or usage, contact us at gebeyehuabraham19@gmail.com.
+## Technology
 
+- PHP
+- MySQL
+- HTML, CSS, JavaScript
+- Bootstrap and AJAX
+- PHPMailer
 
+## Local setup
+
+1. Install XAMPP with Apache and MySQL.
+2. Import the SQL file from `Database/` through phpMyAdmin.
+3. Place the repository under `htdocs`.
+4. Start Apache and MySQL.
+5. Open the local project URL in a browser.
+
+Keep database and mail credentials outside version control.
+
+## Status
+
+Legacy portfolio project demonstrating server-rendered PHP and MySQL e-commerce development.
